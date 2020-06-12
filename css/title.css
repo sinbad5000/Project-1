@@ -1,0 +1,46 @@
+html,body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    text-align: center;
+    background-color: black;
+    background-image: url('../img/backgroundStone.png'); 
+    background-size: cover;
+    background-repeat: space;
+  }
+  #rules{
+      background-color: black;
+      width: 1550px;
+      padding: 20px;
+      margin: 0 auto;
+      margin-top: 200px;
+  }
+
+  h1, h2, p {
+    font-family: 'Press Start 2P', monospace;
+    text-align: center;
+    color: goldenrod;
+  }
+  
+
+.title{
+    font-family: 'Press Start 2P', monospace;
+    font-size: 100px;
+    color: goldenrod;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#btn{
+    font-size: 50px;
+    margin-top: 200px;
+    color: goldenrod;
+    font-family: 'Press Start 2P', monospace;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
