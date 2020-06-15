@@ -213,8 +213,3 @@ setInterval(movement6, 100)
 setInterval(movementO, 100)
 
 
-// boarder detection
-
-if(hero.y < 0 && hero.y > 512 && hero.x > 1664){
-    level.action =  "./pete.html"
-}

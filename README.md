@@ -24,7 +24,7 @@ Basically, I took our old Canvas Crawler code along and turned it into a full fu
 ### Pictures
 
 [Title] (https://i.imgur.com/Yyapsgo.png)
-![Level2] (./img/level 2.png)
+[Level2] (https://i.imgur.com/nTKS483.png)
 
 ### My Ideas for Stretch Goals
 

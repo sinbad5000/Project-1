@@ -4,6 +4,24 @@ body {
     background-size: 750px 950px;
     background-position-y: top;
     background-position: center;
-    margin-top: 920px;
+    margin-top: 675px;
     background-color: lightblue;
 }
+h1, p {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+  }
+
+  #btn{
+    font-size: 45px;
+    margin-top: 25px;
+    color: red;
+    font-family: 'Press Start 2P', monospace;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+  }
