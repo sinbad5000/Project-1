@@ -5,13 +5,18 @@ let level = document.getElementById("file")
 const MusicLevel_1 = new Audio("music/01tune.ogg");
 const deathSound = new Audio("music/Ouch01.ogg")
 const winSound = new Audio("music/nextlevel.ogg")
-
+let cheat = false
 
 game.width = 1728
 game.height = 576
 
 let ctx = game.getContext("2d")
 
+cheatPete = () => {
+    if(hero.y < 0 || hero.y > 512 || hero.x > 1664){
+        level.action =  "./pete.html"
+        cheat = true
+    }}
 
 function Crawler(x, y, color, width, height){
     this.x = x;
@@ -43,7 +48,7 @@ const gameTick = () => {
     if(ogre.alive && bad.alive && bad2.alive && bad3.alive && bad4.alive && good.alive){
         detectHit()
         MusicLevel_1.play()
-    } else {
+    } else  {
         endGame()
         MusicLevel_1.pause();
     }
@@ -54,6 +59,7 @@ const gameTick = () => {
     bad3.render()
     bad4.render()
     good.render()
+    cheatPete()
     
 }
 
@@ -105,9 +111,12 @@ const detectHit = () =>{
         && hero.y + hero.height > good.y){
         good.alive = false;
         winSound.play();
-        level.action =  "./level2.html"
         gameStatus.innerText = "Click Level Complete!";
+        if(cheat === false){
+        level.action =  "./level2.html"
+        }
     }
+    
 }
 const endGame = () => {
     clearInterval(gameLoop)

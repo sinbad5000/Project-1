@@ -1,73 +1,63 @@
 # Canvas Crawl Away From Earth!
 
-Yooooo welcome!
+Hi! Welcome to my game
 
 ## Getting Started
 
-The provided template contains all the files, images, and text content needed to create the page.
+Basically, I took our old Canvas Crawler code along and turned it into a full functioning game!
 
 
 ## Goals
 
-* Use HT
-* Be
+* To build multiple levels
+* To implement an anti-cheat system
+* Give a unique look and a basic plot
+* Title and Credit screens
 
 
 ## Instructions
 
+* Use W A S D to navigate to the exit without getting hit by the bad guys 
+* Don't cheat ;)
 
 
-### Get Started
+### Pictures
 
-Look at the `index.html` again. What elements will we need to access?
-> HINT: Why do we use `id` in HTML over `class`?
+[] (./img/title.png)
+[] (./img/level 2.png)
 
-In your `js/main.js` put a `console.log` and run your index.html in your browser to check that everything is linked up correctly. Once you've tested that, make a reference to a couple of things in the HTML that we'll need to access consistently.
-* `<h2 id="movement">`: This will display the x and y coordinates of our hero so we can see what's going on.
-```javascript
-let movementDisplay = document.getElementById('movement')
-```
-* `<canvas id="game">`: This is the main piece of our game; it's where we will be rendering our game an what we will be updating.
-```javascript
-let game = document.getElementById('game')
-```
+### My Ideas for Stretch Goals
 
-### My Ideas
-
-this is where I went wild
+* Instead of where it says "easy/medium/hard" I was thinking of putting a countdown timer
+* I was thinking of adding treasure to collect before the door appears
+* I wanted to put images on the hero and bad guys, and make the door look like a door 
 
 ### Make Some Characters!
 
-The Pete level
+I made a lot more characters! Well, bad guys, and I made them move!
 
 ## How I linked files
 
-with some magic
+I had some trouble linking all my pages but Pete helped me realize I just needed to use .action, so that is fixed now!
 
 
 #### The function
 
- This my game.
+ To build a basic game and showcase my skills in I've learned in the first 3 weeks
 
 ## When Worlds Collide
 
-Collision detection can get pretty complicated. Since we're using boxes, it is much more manageable. As humans, we use our eyes a lot, so we can see collision, the key is translating it to something a computer can understand. Computers function on numbers, so we need to translate our problem into numbers. Thankfully, we have a graph to solve our problem. 
+I used the same collision detection code but changed it up a bit. I had to make a unique one that silently detected when you went out of bounds as well for the anti-cheat and I definitely added more since now I have multiple bad guys moving around the screen.  
 
 ### What is a box compared to rocks and mountains?
 
- here is where I want to change the boxes into pics
-
-
-## BONUSES
-
-* **Put some bounding on movement.** How would you prevent our daring hero from simply running off the map?
-* **Make the og
+Here is where I want to change the boxes into pics, but I'm leaving that as a stretch goal
 
 
 ## Additional Resources
 
-* used google images
-* used bensound.com for the free music and borrowed some SFX and music from random games I found on
+* used google images and the stock images that came with Canvas Crawler 
+* used bensound.com for the free music and borrowed some SFX and music from Whip-a-Wimp on github (was looking around for inspiration)
 
 ---
 

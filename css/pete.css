@@ -1,0 +1,9 @@
+body {
+    background-image: url("../img/Pete.png");
+    background-repeat:no-repeat;
+    background-size: 750px 950px;
+    background-position-y: top;
+    background-position: center;
+    margin-top: 920px;
+    background-color: lightblue;
+}

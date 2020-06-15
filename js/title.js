@@ -9,4 +9,3 @@ if(song){
 }
 let gameLoop = setInterval(gameTick, 60)
 
-gameLoop();
